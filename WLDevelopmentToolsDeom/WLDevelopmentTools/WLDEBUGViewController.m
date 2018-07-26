@@ -12,9 +12,10 @@
 #import "CatchExceptionTool.h"
 #import "WLCatchViewController.h"
 #import "WLSingleCase.h"
-#
 #import "WLDEBUGHeader.h"
+
 @interface WLDEBUGViewController ()
+
 @property (weak, nonatomic) IBOutlet UISwitch *showTouchTagSwitch;
 
 @end
