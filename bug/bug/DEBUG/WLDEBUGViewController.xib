@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WLDEBUGViewController">
             <connections>
+                <outlet property="showTouchTagSwitch" destination="FWv-at-VEf" id="fhW-Zv-IFL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -34,11 +35,27 @@
                         <action selector="catch:" destination="-1" eventType="touchUpInside" id="RZ2-df-yyN"/>
                     </connections>
                 </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FWv-at-VEf">
+                    <rect key="frame" x="94.5" y="115" width="51" height="31"/>
+                    <connections>
+                        <action selector="changeShowTouchTag:" destination="-1" eventType="valueChanged" id="PFH-AW-Nyf"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="触摸反馈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHo-7d-6Am">
+                    <rect key="frame" x="20" y="120" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="FWv-at-VEf" firstAttribute="leading" secondItem="CHo-7d-6Am" secondAttribute="trailing" constant="5" id="6kC-Ja-Qwh"/>
                 <constraint firstItem="fKf-BF-O3r" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="82N-Qw-RhC"/>
+                <constraint firstItem="CHo-7d-6Am" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="VXm-VC-mT4"/>
                 <constraint firstItem="6V1-rs-79t" firstAttribute="top" secondItem="fKf-BF-O3r" secondAttribute="bottom" constant="50" id="afv-Kt-q1f"/>
+                <constraint firstItem="CHo-7d-6Am" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="100" id="juM-3h-FMR"/>
+                <constraint firstItem="FWv-at-VEf" firstAttribute="centerY" secondItem="CHo-7d-6Am" secondAttribute="centerY" id="t08-EE-oo6"/>
                 <constraint firstItem="6V1-rs-79t" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yhn-au-CkK"/>
                 <constraint firstItem="fKf-BF-O3r" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zaw-nT-LJm"/>
             </constraints>

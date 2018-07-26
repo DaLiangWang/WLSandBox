@@ -12,9 +12,10 @@
 #import "CatchExceptionTool.h"
 #import "WLCatchViewController.h"
 #import "WLSingleCase.h"
-
+#
 #import "WLDEBUGHeader.h"
 @interface WLDEBUGViewController ()
+@property (weak, nonatomic) IBOutlet UISwitch *showTouchTagSwitch;
 
 @end
 
@@ -24,7 +25,12 @@
     [super viewDidLoad];
     [self addNavButton];
 
+    [self.showTouchTagSwitch setOn:[WLSingleCase shareInstance].isShowTouchTagView];
     // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)changeShowTouchTag:(UISwitch *)sender {
+    [WLSingleCase shareInstance].isShowTouchTagView = sender.isOn;
+    [[WLSingleCase shareInstance].showTouchTagView removeFromSuperview];
 }
 + (void)beginDebug{
     [[CatchExceptionTool shareInstance] installUncaughtExceptionHandler];
