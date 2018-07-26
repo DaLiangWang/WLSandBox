@@ -12,8 +12,6 @@
 		EF00AAE32101C735004A49C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00AAE22101C735004A49C7 /* Assets.xcassets */; };
 		EF00AAE62101C735004A49C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00AAE42101C735004A49C7 /* LaunchScreen.storyboard */; };
 		EF00AAE92101C735004A49C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAE82101C735004A49C7 /* main.m */; };
-		EF00AAF32101C735004A49C7 /* bugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAF22101C735004A49C7 /* bugTests.m */; };
-		EF00AAFE2101C735004A49C7 /* bugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAFD2101C735004A49C7 /* bugUITests.m */; };
 		EFECFD8F2109B0D3006EFD30 /* NSObject+WLDEBUGVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */; };
 		EFECFD902109B0D3006EFD30 /* folder_debug_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */; };
 		EFECFD912109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */; };
@@ -58,11 +56,7 @@
 		EF00AAE72101C735004A49C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF00AAE82101C735004A49C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF00AAEE2101C735004A49C7 /* bugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF00AAF22101C735004A49C7 /* bugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bugTests.m; sourceTree = "<group>"; };
-		EF00AAF42101C735004A49C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF00AAF92101C735004A49C7 /* bugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF00AAFD2101C735004A49C7 /* bugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bugUITests.m; sourceTree = "<group>"; };
-		EF00AAFF2101C735004A49C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGVC.m"; sourceTree = "<group>"; };
 		EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_debug_icon.png; sourceTree = "<group>"; };
 		EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGFileSize.m"; sourceTree = "<group>"; };
@@ -121,9 +115,8 @@
 		EF00AACD2101C731004A49C7 = {
 			isa = PBXGroup;
 			children = (
-				EF00AAD82101C731004A49C7 /* bug */,
-				EF00AAF12101C735004A49C7 /* bugTests */,
-				EF00AAFC2101C735004A49C7 /* bugUITests */,
+				EFECFD712109B0D3006EFD30 /* WLDevelopmentTools */,
+				EF00AAD82101C731004A49C7 /* src */,
 				EF00AAD72101C731004A49C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,10 +131,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF00AAD82101C731004A49C7 /* bug */ = {
+		EF00AAD82101C731004A49C7 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				EFECFD712109B0D3006EFD30 /* DEBUG */,
 				EF00AAD92101C731004A49C7 /* AppDelegate.h */,
 				EF00AADA2101C731004A49C7 /* AppDelegate.m */,
 				EFECFD9D2109B0E3006EFD30 /* ViewController.h */,
@@ -154,28 +146,10 @@
 				EF00AAE72101C735004A49C7 /* Info.plist */,
 				EF00AAE82101C735004A49C7 /* main.m */,
 			);
-			path = bug;
+			path = src;
 			sourceTree = "<group>";
 		};
-		EF00AAF12101C735004A49C7 /* bugTests */ = {
-			isa = PBXGroup;
-			children = (
-				EF00AAF22101C735004A49C7 /* bugTests.m */,
-				EF00AAF42101C735004A49C7 /* Info.plist */,
-			);
-			path = bugTests;
-			sourceTree = "<group>";
-		};
-		EF00AAFC2101C735004A49C7 /* bugUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EF00AAFD2101C735004A49C7 /* bugUITests.m */,
-				EF00AAFF2101C735004A49C7 /* Info.plist */,
-			);
-			path = bugUITests;
-			sourceTree = "<group>";
-		};
-		EFECFD712109B0D3006EFD30 /* DEBUG */ = {
+		EFECFD712109B0D3006EFD30 /* WLDevelopmentTools */ = {
 			isa = PBXGroup;
 			children = (
 				EFECFD8D2109B0D3006EFD30 /* WLDEBUGHeader.h */,
@@ -188,7 +162,7 @@
 				EFECFD822109B0D3006EFD30 /* CatchTool */,
 				EFECFD8A2109B0D3006EFD30 /* ShowTouchTagView */,
 			);
-			path = DEBUG;
+			path = WLDevelopmentTools;
 			sourceTree = "<group>";
 		};
 		EFECFD722109B0D3006EFD30 /* Categary */ = {
@@ -324,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF00AAD12101C731004A49C7 /* Build configuration list for PBXProject "bug" */;
+			buildConfigurationList = EF00AAD12101C731004A49C7 /* Build configuration list for PBXProject "WLDevelopmentTools" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -400,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF00AAF32101C735004A49C7 /* bugTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +381,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF00AAFE2101C735004A49C7 /* bugUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,13 +535,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPHH84J6G6;
-				INFOPLIST_FILE = bug/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WLDevelopmentTools/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdl.developmentTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -581,13 +553,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EPHH84J6G6;
-				INFOPLIST_FILE = bug/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WLDevelopmentTools/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdl.developmentTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -666,7 +638,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF00AAD12101C731004A49C7 /* Build configuration list for PBXProject "bug" */ = {
+		EF00AAD12101C731004A49C7 /* Build configuration list for PBXProject "WLDevelopmentTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF00AB002101C735004A49C7 /* Debug */,
