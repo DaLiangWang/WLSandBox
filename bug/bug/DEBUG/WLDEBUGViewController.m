@@ -11,7 +11,9 @@
 #import "WLGroupDebugView.h"
 #import "CatchExceptionTool.h"
 #import "WLCatchViewController.h"
+#import "WLSingleCase.h"
 
+#import "WLDEBUGHeader.h"
 @interface WLDEBUGViewController ()
 
 @end
@@ -26,27 +28,27 @@
 }
 + (void)beginDebug{
     [[CatchExceptionTool shareInstance] installUncaughtExceptionHandler];
+    [WLSingleCase shareInstance].isShowTouchTagView = YES;
 
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
     
-    UILabel *label = [[UILabel alloc]init];
-    
-    label.frame = CGRectMake(111, 111, 0, 0);
-//    label.center = [UIApplication sharedApplication].keyWindow.center;
-    
-    label.backgroundColor = [UIColor grayColor];
-    label.text = @"TEST";
-    label.numberOfLines = 0;
-    label.textAlignment = NSTextAlignmentCenter;
-    label.adjustsFontSizeToFitWidth = YES;
-    label.textColor = [UIColor darkGrayColor];
-    [label sizeToFit];
-    
-    UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(gotoView:)];
-    label.userInteractionEnabled = YES;
-    [label addGestureRecognizer:gesture];
-    
-    
-    [[UIApplication sharedApplication].keyWindow addSubview:label];
+        UILabel *label = [[UILabel alloc]init];
+        
+        label.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 49, 15, 49);
+//        label.backgroundColor = [UIColor ];
+        label.text = @"T\nE\nS\nT";
+        label.adjustsFontSizeToFitWidth = YES;
+        label.textColor = [UIColor darkGrayColor];
+        label.numberOfLines = 0;
+        label.textAlignment = NSTextAlignmentCenter;
+        
+        
+        UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(gotoView:)];
+        label.userInteractionEnabled = YES;
+        [label addGestureRecognizer:gesture];
+        
+        [keyWindows_wl addSubview:label];
+    });
     
 }
 + (void)gotoView:(UITapGestureRecognizer*)gesture{

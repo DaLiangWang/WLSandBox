@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		EF00AADB2101C731004A49C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AADA2101C731004A49C7 /* AppDelegate.m */; };
-		EF00AADE2101C731004A49C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AADD2101C731004A49C7 /* ViewController.m */; };
 		EF00AAE12101C731004A49C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00AADF2101C731004A49C7 /* Main.storyboard */; };
 		EF00AAE32101C735004A49C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00AAE22101C735004A49C7 /* Assets.xcassets */; };
 		EF00AAE62101C735004A49C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF00AAE42101C735004A49C7 /* LaunchScreen.storyboard */; };
 		EF00AAE92101C735004A49C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAE82101C735004A49C7 /* main.m */; };
 		EF00AAF32101C735004A49C7 /* bugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAF22101C735004A49C7 /* bugTests.m */; };
 		EF00AAFE2101C735004A49C7 /* bugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AAFD2101C735004A49C7 /* bugUITests.m */; };
-		EF00AB0E2101C74F004A49C7 /* CatchExceptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB0D2101C74F004A49C7 /* CatchExceptionTool.m */; };
-		EF00AB112101C759004A49C7 /* CatchExceptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB102101C759004A49C7 /* CatchExceptionModel.m */; };
-		EF00AB162101C80E004A49C7 /* WLGroupDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB152101C80E004A49C7 /* WLGroupDebugView.m */; };
-		EF00AB192101CBDB004A49C7 /* WLGroupDebugFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB182101CBDB004A49C7 /* WLGroupDebugFileModel.m */; };
-		EF00AB1C2101DD0B004A49C7 /* NSObject+WLDEBUGVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB1B2101DD0B004A49C7 /* NSObject+WLDEBUGVC.m */; };
-		EF00AB202101E2AA004A49C7 /* WLDEBUGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB1E2101E2AA004A49C7 /* WLDEBUGViewController.m */; };
-		EF00AB212101E2AA004A49C7 /* WLDEBUGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF00AB1F2101E2AA004A49C7 /* WLDEBUGViewController.xib */; };
-		EF00AB252101E491004A49C7 /* WLCatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF00AB242101E491004A49C7 /* WLCatchViewController.m */; };
-		EFC0204F21097140002EC5F9 /* folder_debug_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC0204B21097140002EC5F9 /* folder_debug_icon.png */; };
-		EFC0205021097140002EC5F9 /* NSObject+WLDEBUGFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC0204D21097140002EC5F9 /* NSObject+WLDEBUGFileSize.m */; };
-		EFC0205121097140002EC5F9 /* file_debug_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC0204E21097140002EC5F9 /* file_debug_icon.png */; };
+		EFECFD8F2109B0D3006EFD30 /* NSObject+WLDEBUGVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */; };
+		EFECFD902109B0D3006EFD30 /* folder_debug_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */; };
+		EFECFD912109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */; };
+		EFECFD922109B0D3006EFD30 /* file_debug_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFECFD762109B0D3006EFD30 /* file_debug_icon.png */; };
+		EFECFD932109B0D3006EFD30 /* WLSingleCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD7C2109B0D3006EFD30 /* WLSingleCase.m */; };
+		EFECFD942109B0D3006EFD30 /* WLGroupDebugFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD802109B0D3006EFD30 /* WLGroupDebugFileModel.m */; };
+		EFECFD952109B0D3006EFD30 /* WLGroupDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD812109B0D3006EFD30 /* WLGroupDebugView.m */; };
+		EFECFD962109B0D3006EFD30 /* CatchExceptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD832109B0D3006EFD30 /* CatchExceptionTool.m */; };
+		EFECFD972109B0D3006EFD30 /* CatchExceptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD842109B0D3006EFD30 /* CatchExceptionModel.m */; };
+		EFECFD982109B0D3006EFD30 /* WLCatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD852109B0D3006EFD30 /* WLCatchViewController.m */; };
+		EFECFD992109B0D3006EFD30 /* WLDEBUGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD892109B0D3006EFD30 /* WLDEBUGViewController.m */; };
+		EFECFD9A2109B0D3006EFD30 /* UIView+WLTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD8B2109B0D3006EFD30 /* UIView+WLTouchView.m */; };
+		EFECFD9B2109B0D3006EFD30 /* WLDEBUGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFECFD8E2109B0D3006EFD30 /* WLDEBUGViewController.xib */; };
+		EFECFDA02109B0E3006EFD30 /* WLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD9C2109B0E3006EFD30 /* WLView.m */; };
+		EFECFDA12109B0E3006EFD30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFECFD9E2109B0E3006EFD30 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +52,6 @@
 		EF00AAD62101C731004A49C7 /* bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF00AAD92101C731004A49C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF00AADA2101C731004A49C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF00AADC2101C731004A49C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF00AADD2101C731004A49C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF00AAE02101C731004A49C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF00AAE22101C735004A49C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF00AAE52101C735004A49C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,25 +63,34 @@
 		EF00AAF92101C735004A49C7 /* bugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF00AAFD2101C735004A49C7 /* bugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bugUITests.m; sourceTree = "<group>"; };
 		EF00AAFF2101C735004A49C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF00AB0C2101C74F004A49C7 /* CatchExceptionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatchExceptionTool.h; sourceTree = "<group>"; };
-		EF00AB0D2101C74F004A49C7 /* CatchExceptionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchExceptionTool.m; sourceTree = "<group>"; };
-		EF00AB0F2101C759004A49C7 /* CatchExceptionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatchExceptionModel.h; sourceTree = "<group>"; };
-		EF00AB102101C759004A49C7 /* CatchExceptionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchExceptionModel.m; sourceTree = "<group>"; };
-		EF00AB142101C80E004A49C7 /* WLGroupDebugView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLGroupDebugView.h; sourceTree = "<group>"; };
-		EF00AB152101C80E004A49C7 /* WLGroupDebugView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGroupDebugView.m; sourceTree = "<group>"; };
-		EF00AB172101CBDB004A49C7 /* WLGroupDebugFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLGroupDebugFileModel.h; sourceTree = "<group>"; };
-		EF00AB182101CBDB004A49C7 /* WLGroupDebugFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLGroupDebugFileModel.m; sourceTree = "<group>"; };
-		EF00AB1A2101DD0B004A49C7 /* NSObject+WLDEBUGVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLDEBUGVC.h"; sourceTree = "<group>"; };
-		EF00AB1B2101DD0B004A49C7 /* NSObject+WLDEBUGVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGVC.m"; sourceTree = "<group>"; };
-		EF00AB1D2101E2AA004A49C7 /* WLDEBUGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLDEBUGViewController.h; sourceTree = "<group>"; };
-		EF00AB1E2101E2AA004A49C7 /* WLDEBUGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLDEBUGViewController.m; sourceTree = "<group>"; };
-		EF00AB1F2101E2AA004A49C7 /* WLDEBUGViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WLDEBUGViewController.xib; sourceTree = "<group>"; };
-		EF00AB232101E491004A49C7 /* WLCatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLCatchViewController.h; sourceTree = "<group>"; };
-		EF00AB242101E491004A49C7 /* WLCatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLCatchViewController.m; sourceTree = "<group>"; };
-		EFC0204B21097140002EC5F9 /* folder_debug_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_debug_icon.png; sourceTree = "<group>"; };
-		EFC0204C21097140002EC5F9 /* NSObject+WLDEBUGFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLDEBUGFileSize.h"; sourceTree = "<group>"; };
-		EFC0204D21097140002EC5F9 /* NSObject+WLDEBUGFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGFileSize.m"; sourceTree = "<group>"; };
-		EFC0204E21097140002EC5F9 /* file_debug_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_debug_icon.png; sourceTree = "<group>"; };
+		EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGVC.m"; sourceTree = "<group>"; };
+		EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_debug_icon.png; sourceTree = "<group>"; };
+		EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLDEBUGFileSize.m"; sourceTree = "<group>"; };
+		EFECFD762109B0D3006EFD30 /* file_debug_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_debug_icon.png; sourceTree = "<group>"; };
+		EFECFD772109B0D3006EFD30 /* NSObject+WLDEBUGVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLDEBUGVC.h"; sourceTree = "<group>"; };
+		EFECFD782109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLDEBUGFileSize.h"; sourceTree = "<group>"; };
+		EFECFD792109B0D3006EFD30 /* WLDEBUGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDEBUGViewController.h; sourceTree = "<group>"; };
+		EFECFD7B2109B0D3006EFD30 /* WLSingleCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSingleCase.h; sourceTree = "<group>"; };
+		EFECFD7C2109B0D3006EFD30 /* WLSingleCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSingleCase.m; sourceTree = "<group>"; };
+		EFECFD7E2109B0D3006EFD30 /* WLGroupDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLGroupDebugView.h; sourceTree = "<group>"; };
+		EFECFD7F2109B0D3006EFD30 /* WLGroupDebugFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLGroupDebugFileModel.h; sourceTree = "<group>"; };
+		EFECFD802109B0D3006EFD30 /* WLGroupDebugFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLGroupDebugFileModel.m; sourceTree = "<group>"; };
+		EFECFD812109B0D3006EFD30 /* WLGroupDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLGroupDebugView.m; sourceTree = "<group>"; };
+		EFECFD832109B0D3006EFD30 /* CatchExceptionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchExceptionTool.m; sourceTree = "<group>"; };
+		EFECFD842109B0D3006EFD30 /* CatchExceptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchExceptionModel.m; sourceTree = "<group>"; };
+		EFECFD852109B0D3006EFD30 /* WLCatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCatchViewController.m; sourceTree = "<group>"; };
+		EFECFD862109B0D3006EFD30 /* CatchExceptionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchExceptionTool.h; sourceTree = "<group>"; };
+		EFECFD872109B0D3006EFD30 /* CatchExceptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchExceptionModel.h; sourceTree = "<group>"; };
+		EFECFD882109B0D3006EFD30 /* WLCatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCatchViewController.h; sourceTree = "<group>"; };
+		EFECFD892109B0D3006EFD30 /* WLDEBUGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDEBUGViewController.m; sourceTree = "<group>"; };
+		EFECFD8B2109B0D3006EFD30 /* UIView+WLTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLTouchView.m"; sourceTree = "<group>"; };
+		EFECFD8C2109B0D3006EFD30 /* UIView+WLTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WLTouchView.h"; sourceTree = "<group>"; };
+		EFECFD8D2109B0D3006EFD30 /* WLDEBUGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDEBUGHeader.h; sourceTree = "<group>"; };
+		EFECFD8E2109B0D3006EFD30 /* WLDEBUGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLDEBUGViewController.xib; sourceTree = "<group>"; };
+		EFECFD9C2109B0E3006EFD30 /* WLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLView.m; sourceTree = "<group>"; };
+		EFECFD9D2109B0E3006EFD30 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFECFD9E2109B0E3006EFD30 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFECFD9F2109B0E3006EFD30 /* WLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +141,13 @@
 		EF00AAD82101C731004A49C7 /* bug */ = {
 			isa = PBXGroup;
 			children = (
-				EF00AB0B2101C73B004A49C7 /* DEBUG */,
+				EFECFD712109B0D3006EFD30 /* DEBUG */,
 				EF00AAD92101C731004A49C7 /* AppDelegate.h */,
 				EF00AADA2101C731004A49C7 /* AppDelegate.m */,
-				EF00AADC2101C731004A49C7 /* ViewController.h */,
-				EF00AADD2101C731004A49C7 /* ViewController.m */,
+				EFECFD9D2109B0E3006EFD30 /* ViewController.h */,
+				EFECFD9E2109B0E3006EFD30 /* ViewController.m */,
+				EFECFD9F2109B0E3006EFD30 /* WLView.h */,
+				EFECFD9C2109B0E3006EFD30 /* WLView.m */,
 				EF00AADF2101C731004A49C7 /* Main.storyboard */,
 				EF00AAE22101C735004A49C7 /* Assets.xcassets */,
 				EF00AAE42101C735004A49C7 /* LaunchScreen.storyboard */,
@@ -163,54 +175,75 @@
 			path = bugUITests;
 			sourceTree = "<group>";
 		};
-		EF00AB0B2101C73B004A49C7 /* DEBUG */ = {
+		EFECFD712109B0D3006EFD30 /* DEBUG */ = {
 			isa = PBXGroup;
 			children = (
-				EF00AB1D2101E2AA004A49C7 /* WLDEBUGViewController.h */,
-				EF00AB1E2101E2AA004A49C7 /* WLDEBUGViewController.m */,
-				EF00AB1F2101E2AA004A49C7 /* WLDEBUGViewController.xib */,
-				EF00AB222101E2CF004A49C7 /* Categary */,
-				EF00AB132101C7D2004A49C7 /* GroupDebugView */,
-				EF00AB122101C7C4004A49C7 /* CatchTool */,
+				EFECFD722109B0D3006EFD30 /* Categary */,
+				EFECFD792109B0D3006EFD30 /* WLDEBUGViewController.h */,
+				EFECFD7A2109B0D3006EFD30 /* SingleCase */,
+				EFECFD7D2109B0D3006EFD30 /* GroupDebugView */,
+				EFECFD822109B0D3006EFD30 /* CatchTool */,
+				EFECFD892109B0D3006EFD30 /* WLDEBUGViewController.m */,
+				EFECFD8A2109B0D3006EFD30 /* ShowTouchTagView */,
+				EFECFD8D2109B0D3006EFD30 /* WLDEBUGHeader.h */,
+				EFECFD8E2109B0D3006EFD30 /* WLDEBUGViewController.xib */,
 			);
 			path = DEBUG;
 			sourceTree = "<group>";
 		};
-		EF00AB122101C7C4004A49C7 /* CatchTool */ = {
+		EFECFD722109B0D3006EFD30 /* Categary */ = {
 			isa = PBXGroup;
 			children = (
-				EF00AB232101E491004A49C7 /* WLCatchViewController.h */,
-				EF00AB242101E491004A49C7 /* WLCatchViewController.m */,
-				EF00AB0C2101C74F004A49C7 /* CatchExceptionTool.h */,
-				EF00AB0D2101C74F004A49C7 /* CatchExceptionTool.m */,
-				EF00AB0F2101C759004A49C7 /* CatchExceptionModel.h */,
-				EF00AB102101C759004A49C7 /* CatchExceptionModel.m */,
+				EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */,
+				EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */,
+				EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */,
+				EFECFD762109B0D3006EFD30 /* file_debug_icon.png */,
+				EFECFD772109B0D3006EFD30 /* NSObject+WLDEBUGVC.h */,
+				EFECFD782109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.h */,
 			);
-			path = CatchTool;
+			path = Categary;
 			sourceTree = "<group>";
 		};
-		EF00AB132101C7D2004A49C7 /* GroupDebugView */ = {
+		EFECFD7A2109B0D3006EFD30 /* SingleCase */ = {
 			isa = PBXGroup;
 			children = (
-				EF00AB142101C80E004A49C7 /* WLGroupDebugView.h */,
-				EF00AB152101C80E004A49C7 /* WLGroupDebugView.m */,
-				EF00AB172101CBDB004A49C7 /* WLGroupDebugFileModel.h */,
-				EF00AB182101CBDB004A49C7 /* WLGroupDebugFileModel.m */,
+				EFECFD7B2109B0D3006EFD30 /* WLSingleCase.h */,
+				EFECFD7C2109B0D3006EFD30 /* WLSingleCase.m */,
+			);
+			path = SingleCase;
+			sourceTree = "<group>";
+		};
+		EFECFD7D2109B0D3006EFD30 /* GroupDebugView */ = {
+			isa = PBXGroup;
+			children = (
+				EFECFD7E2109B0D3006EFD30 /* WLGroupDebugView.h */,
+				EFECFD7F2109B0D3006EFD30 /* WLGroupDebugFileModel.h */,
+				EFECFD802109B0D3006EFD30 /* WLGroupDebugFileModel.m */,
+				EFECFD812109B0D3006EFD30 /* WLGroupDebugView.m */,
 			);
 			path = GroupDebugView;
 			sourceTree = "<group>";
 		};
-		EF00AB222101E2CF004A49C7 /* Categary */ = {
+		EFECFD822109B0D3006EFD30 /* CatchTool */ = {
 			isa = PBXGroup;
 			children = (
-				EFC0204E21097140002EC5F9 /* file_debug_icon.png */,
-				EFC0204B21097140002EC5F9 /* folder_debug_icon.png */,
-				EFC0204C21097140002EC5F9 /* NSObject+WLDEBUGFileSize.h */,
-				EFC0204D21097140002EC5F9 /* NSObject+WLDEBUGFileSize.m */,
-				EF00AB1A2101DD0B004A49C7 /* NSObject+WLDEBUGVC.h */,
-				EF00AB1B2101DD0B004A49C7 /* NSObject+WLDEBUGVC.m */,
+				EFECFD832109B0D3006EFD30 /* CatchExceptionTool.m */,
+				EFECFD842109B0D3006EFD30 /* CatchExceptionModel.m */,
+				EFECFD852109B0D3006EFD30 /* WLCatchViewController.m */,
+				EFECFD862109B0D3006EFD30 /* CatchExceptionTool.h */,
+				EFECFD872109B0D3006EFD30 /* CatchExceptionModel.h */,
+				EFECFD882109B0D3006EFD30 /* WLCatchViewController.h */,
 			);
-			path = Categary;
+			path = CatchTool;
+			sourceTree = "<group>";
+		};
+		EFECFD8A2109B0D3006EFD30 /* ShowTouchTagView */ = {
+			isa = PBXGroup;
+			children = (
+				EFECFD8B2109B0D3006EFD30 /* UIView+WLTouchView.m */,
+				EFECFD8C2109B0D3006EFD30 /* UIView+WLTouchView.h */,
+			);
+			path = ShowTouchTagView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,12 +349,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC0205121097140002EC5F9 /* file_debug_icon.png in Resources */,
 				EF00AAE62101C735004A49C7 /* LaunchScreen.storyboard in Resources */,
 				EF00AAE32101C735004A49C7 /* Assets.xcassets in Resources */,
+				EFECFD902109B0D3006EFD30 /* folder_debug_icon.png in Resources */,
+				EFECFD9B2109B0D3006EFD30 /* WLDEBUGViewController.xib in Resources */,
 				EF00AAE12101C731004A49C7 /* Main.storyboard in Resources */,
-				EF00AB212101E2AA004A49C7 /* WLDEBUGViewController.xib in Resources */,
-				EFC0204F21097140002EC5F9 /* folder_debug_icon.png in Resources */,
+				EFECFD922109B0D3006EFD30 /* file_debug_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,17 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF00AADE2101C731004A49C7 /* ViewController.m in Sources */,
-				EF00AB202101E2AA004A49C7 /* WLDEBUGViewController.m in Sources */,
+				EFECFDA12109B0E3006EFD30 /* ViewController.m in Sources */,
+				EFECFD932109B0D3006EFD30 /* WLSingleCase.m in Sources */,
+				EFECFD962109B0D3006EFD30 /* CatchExceptionTool.m in Sources */,
+				EFECFD982109B0D3006EFD30 /* WLCatchViewController.m in Sources */,
+				EFECFD8F2109B0D3006EFD30 /* NSObject+WLDEBUGVC.m in Sources */,
 				EF00AAE92101C735004A49C7 /* main.m in Sources */,
-				EF00AB112101C759004A49C7 /* CatchExceptionModel.m in Sources */,
-				EF00AB1C2101DD0B004A49C7 /* NSObject+WLDEBUGVC.m in Sources */,
-				EF00AB162101C80E004A49C7 /* WLGroupDebugView.m in Sources */,
+				EFECFD9A2109B0D3006EFD30 /* UIView+WLTouchView.m in Sources */,
 				EF00AADB2101C731004A49C7 /* AppDelegate.m in Sources */,
-				EF00AB0E2101C74F004A49C7 /* CatchExceptionTool.m in Sources */,
-				EF00AB192101CBDB004A49C7 /* WLGroupDebugFileModel.m in Sources */,
-				EFC0205021097140002EC5F9 /* NSObject+WLDEBUGFileSize.m in Sources */,
-				EF00AB252101E491004A49C7 /* WLCatchViewController.m in Sources */,
+				EFECFD992109B0D3006EFD30 /* WLDEBUGViewController.m in Sources */,
+				EFECFD912109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m in Sources */,
+				EFECFD972109B0D3006EFD30 /* CatchExceptionModel.m in Sources */,
+				EFECFD942109B0D3006EFD30 /* WLGroupDebugFileModel.m in Sources */,
+				EFECFD952109B0D3006EFD30 /* WLGroupDebugView.m in Sources */,
+				EFECFDA02109B0E3006EFD30 /* WLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
