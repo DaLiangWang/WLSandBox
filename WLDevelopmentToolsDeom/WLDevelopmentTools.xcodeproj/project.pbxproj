@@ -168,12 +168,12 @@
 		EFECFD722109B0D3006EFD30 /* Categary */ = {
 			isa = PBXGroup;
 			children = (
-				EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */,
-				EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */,
-				EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */,
 				EFECFD762109B0D3006EFD30 /* file_debug_icon.png */,
+				EFECFD742109B0D3006EFD30 /* folder_debug_icon.png */,
 				EFECFD772109B0D3006EFD30 /* NSObject+WLDEBUGVC.h */,
+				EFECFD732109B0D3006EFD30 /* NSObject+WLDEBUGVC.m */,
 				EFECFD782109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.h */,
+				EFECFD752109B0D3006EFD30 /* NSObject+WLDEBUGFileSize.m */,
 			);
 			path = Categary;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				EFECFD7E2109B0D3006EFD30 /* WLGroupDebugView.h */,
+				EFECFD812109B0D3006EFD30 /* WLGroupDebugView.m */,
 				EFECFD7F2109B0D3006EFD30 /* WLGroupDebugFileModel.h */,
 				EFECFD802109B0D3006EFD30 /* WLGroupDebugFileModel.m */,
-				EFECFD812109B0D3006EFD30 /* WLGroupDebugView.m */,
 			);
 			path = GroupDebugView;
 			sourceTree = "<group>";
@@ -201,12 +201,12 @@
 		EFECFD822109B0D3006EFD30 /* CatchTool */ = {
 			isa = PBXGroup;
 			children = (
-				EFECFD832109B0D3006EFD30 /* CatchExceptionTool.m */,
-				EFECFD842109B0D3006EFD30 /* CatchExceptionModel.m */,
-				EFECFD852109B0D3006EFD30 /* WLCatchViewController.m */,
 				EFECFD862109B0D3006EFD30 /* CatchExceptionTool.h */,
+				EFECFD832109B0D3006EFD30 /* CatchExceptionTool.m */,
 				EFECFD872109B0D3006EFD30 /* CatchExceptionModel.h */,
+				EFECFD842109B0D3006EFD30 /* CatchExceptionModel.m */,
 				EFECFD882109B0D3006EFD30 /* WLCatchViewController.h */,
+				EFECFD852109B0D3006EFD30 /* WLCatchViewController.m */,
 			);
 			path = CatchTool;
 			sourceTree = "<group>";
@@ -214,8 +214,8 @@
 		EFECFD8A2109B0D3006EFD30 /* ShowTouchTagView */ = {
 			isa = PBXGroup;
 			children = (
-				EFECFD8B2109B0D3006EFD30 /* UIView+WLTouchView.m */,
 				EFECFD8C2109B0D3006EFD30 /* UIView+WLTouchView.h */,
+				EFECFD8B2109B0D3006EFD30 /* UIView+WLTouchView.m */,
 			);
 			path = ShowTouchTagView;
 			sourceTree = "<group>";
